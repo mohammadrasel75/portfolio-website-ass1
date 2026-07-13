@@ -1,0 +1,304 @@
+/* Header menu & logo, button */
+*{
+    font-family: monospace;
+}
+
+.container  {
+   display: grid;
+   /* grid-template-columns: 1fr auto auto; */
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   background-color: #ffffff;
+   font-size: 24px;
+   padding-left: 20px;
+   color: #575757;
+   /* font-size: px;
+   text-align: center; */
+  
+}
+
+nav ul li {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #575757;
+}
+
+.menu {
+    display:flex;
+    gap: 10px;
+    margin-right: 50px;
+    
+}
+
+.btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    /* margin-right: 50px;
+    margin-left: 50px;
+    margin-right: 20px; */
+    font-size: 20px;
+    border-radius: 5px;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.btn2 {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 50px, 20px,50px,20px;
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    color: red;
+    cursor: pointer;
+}
+
+/* banner section */
+
+.banner{
+    display:grid;
+    grid-template-columns: 1fr auto auto;
+    background-image: url(./imagebox/banner.jpg);
+    padding-top: 100px;
+    padding-bottom:90px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity:20;
+    height: 596px;
+
+
+}
+/* .pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+} */
+.pic-container img{
+    width: 650px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.special-btn{
+    background-color: #1D4ED8;
+    color: white;
+    /* border: 2px solid red; */
+    border-radius: 6px;
+    margin-top:200px;
+    padding: 10px 35px 10px 35px;
+    font-size: 16px;
+}
+
+#text-power{
+    padding-top: 50px;
+    padding-left:150px;
+    padding-right:150px;
+    text-align: center;
+    /* font-size: 80px; */
+    color: white;
+    
+}
+
+#text-power p {
+    font-size: 24px;
+}
+
+#text-power h1{
+    font-size: 80px;
+    font-family: monospace;
+    font-weight: 950px;
+    color: white;
+}
+
+.card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px 40px 40px 40px;
+    /* padding-left: 100px; */
+    /* text-align: center; */
+    
+    
+}
+.card ul li{
+  list-style: none;
+}
+.center{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.center h3{
+    font-size: 32px;
+}
+.center p{
+    font-size: 18px;
+}
+.center b{
+    font-size:18px;
+}
+.card1 {
+  /* background-color: rgb(161, 134, 161); */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 10px, 10px, 10px, 10px;
+  border-radius: 5px;
+}
+/* .card2 {
+  background-color: rgb(161, 134, 161);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  border: 3px solid red;
+} */
+
+
+/* Over-all prizing */
+
+.prizing{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: left;
+
+    
+   
+}
+.prizing h1{
+    font-size:44px;
+    font-family: Inter;
+}
+.prizing h4{
+    font-family: Inter;
+    font-size:13px;
+    font-weight: bold;
+}
+.prizing p{
+    font-family: Inter;
+    font-size:13px;
+    font-weight: semi-bold;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    
+
+}
+
+.prizing ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+.prizing ul li::marker{
+      color:blue;
+}
+
+.sbtn1 {
+       padding: 10px 80px 10px 80px;
+       border: 1px solid rgb(68, 104, 224);
+       border-radius: 5px;
+       color:rgb(57, 57, 212);
+       font-weight: semi-bold;
+       font-family: Inter;
+}
+
+.sbtn2 {
+       padding: 10px 100px 10px 100px;
+       border: 1px solid gray;
+       border-radius: 5px;
+       color:white;
+       background-color:#2563EB;
+       font-weight: semi-bold;
+       font-family: Inter;
+}
+.sbtn3 {
+       padding: 10px 90px 10px 90px;
+       border: 1px solid gray;
+       border-radius: 5px;
+       color:rgb(57, 57, 212);
+       font-weight: semi-bold;
+       font-family: Inter;
+}
+
+
+/* Card-wise prizing */
+
+.standard{
+    border: 0.1px solid #888888;
+    padding: 32px 32px 32px 32px;
+    border-radius: 6px;
+    line-height: 25px;
+}
+
+.pro{
+    border: 0.1px solid #888888;
+    padding: 32px 32px 32px 32px;
+    border-radius: 6px;
+    line-height: 25px;
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+
+.pro h4{
+    color: #93C5FD;
+}
+.pro h1{
+    color:#FFFFFF;
+}
+
+.team{
+    border: 0.1px solid #888888;
+    padding: 32px 32px 32px 32px;
+    border-radius: 6px;
+    line-height: 25px;
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    padding: 50px 100px 50px 100px;
+    background-color: #0D1B2A;
+    color:#FFFFFF;
+}
+.footer ul{
+     text-align: right;
+     padding-left:100px;
+     list-style: none;
+     /* margin-left: 50px; */
+}
+
+#form{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 25px;
+    background-color:rgb(223, 194, 223);
+}
+
+
+
+
+
+/* .second-card li{
+   list-style: none;
+} */
+
