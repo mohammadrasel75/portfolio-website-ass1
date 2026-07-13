@@ -95,18 +95,18 @@ nav ul li {
     border-radius: 5px;
 }
 
-/* .special-btn{
+.special-btn{
     background-color: #1D4ED8;
     color: white;
     /* border: 2px solid red; */
     border-radius: 6px;
-    margin-top:20px;
+    margin-top:200px;
     padding: 10px 35px 10px 35px;
     font-size: 16px;
-} */
+}
 
 #text-power{
-    padding-top: 50px;
+    padding-top: -50px;
     padding-left:150px;
     padding-right:150px;
     text-align: center;
